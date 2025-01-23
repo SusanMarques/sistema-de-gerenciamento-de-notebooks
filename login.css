@@ -77,3 +77,58 @@ body {
     height: 40px;
     border-radius: 10px;
 }
+
+
+    @media screen and (max-width: 360px) {
+        .conteudo {
+            margin: 50px; /* Adiciona um espaço abaixo dos elementos movidos */
+            width: 300px;
+        }
+    
+        .logoSenac, .titulo, .boasVindas {
+            position: relative; /* Permite posicionar fora do fluxo da div .conteudo */
+            width: 100%; /* Ocupa toda a largura do topo */
+            margin-bottom: 10px; /* Espaçamento entre os elementos */
+            margin-top: 50%;
+            margin-left: 50px;
+
+        }
+    
+        .logoSenac {
+            position: absolute;
+            top: 10px; /* Posiciona a logo na parte superior da tela */
+            
+            transform: translateX(-50%); /* Centraliza horizontalmente */
+            width: 70px; /* Ajusta o tamanho da logo */
+            height: auto;
+        }
+    
+        .titulo {
+            position: absolute;
+            top: 90px; /* Abaixo da logo */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px; /* Ajusta o tamanho da fonte */
+            font-weight: bold;
+            color: #FFFFFF; /* Pode ser ajustado conforme o background */
+        }
+    
+        .boasVindas {
+            position: absolute;
+            top: 120px; /* Abaixo do título */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            font-style: italic;
+            color: #FFFFFF;
+        }
+
+        .matricula{
+            height: 5px;
+            width: 150px;
+        }
+
+        .botao-acessar{
+            margin-top: 0;
+        }
+    }

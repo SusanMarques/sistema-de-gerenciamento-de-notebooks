@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Centraliza todo o conteúdo da página*/
+    align-items: center;
+    /* Centraliza todo o conteúdo da página*/
+    background: url("./img/background-transparencia.jpg") no-repeat center center;
+    background-size: cover;
+    /* Faz com que a imagem ocupe toda a largura */
+    min-height: 100vh;
+    /* Faz com que a imagem ocupe toda a altura */
+}
+
+
+
+.conteudo {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    font-family: "Inter", serif;
+}
+
+.logoSenac {
+    width: 20%;
+    height: 20%;
+}
+
+.titulo {
+    font-weight: 550;
+}
+
+.boasVindas {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.bloco-login {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+
+}
+
+.subtitulo {
+    font-weight: 550;
+    font-size: 15px;
+    margin: 0;
+}
+
+.matricula{
+    background-color: #D5D5D5;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.botao-acessar{
+    margin-top: 20px;
+    background-color: #004A8D;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
